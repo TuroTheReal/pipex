@@ -169,5 +169,4 @@ The program creates two child processes:
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20with-C-blue.svg"/>
   <img src="https://img.shields.io/badge/Unix-System%20Programming-orange.svg"/>
-  <img src="https://img.shields.io/badge/42-School%20Project-red.svg"/>
 </p>
