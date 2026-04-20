@@ -9,8 +9,8 @@
 - [42 School Standards](#42-school-standards)
 
 ## About
-This repository contains my implementation of the **pipex** project at 42 School.  
-Pipex is a foundational Unix project that recreates the behavior of shell pipes in C programming.  
+This repository contains my implementation of the **pipex** project at 42 School.
+Pipex is a foundational Unix project that recreates the behavior of shell pipes in C programming.
 The program mimics the Unix pipe operator `|`, allowing the output of one command to become the input of another, while handling file redirection and process management.
 
 **Program Behavior:**
@@ -41,7 +41,7 @@ The program takes 4 arguments and executes commands with input/output redirectio
 **Arguments:**
 - `file1`: Input file to read from
 - `cmd1`: First command to execute
-- `cmd2`: Second command to execute  
+- `cmd2`: Second command to execute
 - `file2`: Output file to write to
 
 
@@ -91,7 +91,7 @@ make re
 ## Skills Developed
 
 - **System-level Programming**: Deep understanding of Unix process model
-- **Inter-process Communication**: Implementing pipes for data flow between processes  
+- **Inter-process Communication**: Implementing pipes for data flow between processes
 - **File I/O Management**: Handling file operations and descriptor manipulation
 - **Process Synchronization**: Coordinating parent and child process execution
 - **Command Line Parsing**: Processing and validating user input arguments
@@ -114,7 +114,7 @@ make re
 
 **Key Functions Implemented:**
 - File opening and validation
-- Path resolution for executables  
+- Path resolution for executables
 - Command parsing and argument preparation
 - Pipe setup and file descriptor redirection
 - Process creation and execution management
@@ -139,7 +139,7 @@ The program creates two child processes:
 
 ### Norm Requirements
 - ✅ Maximum 25 lines per function
-- ✅ Maximum 5 functions per file  
+- ✅ Maximum 5 functions per file
 - ✅ Proper indentation and formatting
 - ✅ No forbidden functions usage
 - ✅ Compilation without warnings
@@ -160,6 +160,13 @@ The program creates two child processes:
 - Custom libft functions
 
 
+## 📝 Related Articles
+
+Blog posts documenting the learning process and context behind this project:
+
+- 📝 [42 Piscine and Common Core: What I Learned](https://arthur-portfolio.com/en/blog/42-piscine-and-core-curriculum) — Reflections on 42 School's selection process and 2-year curriculum
+
+---
 ## Contact
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
 - **Email**: arthurbernard.dev@gmail.com
