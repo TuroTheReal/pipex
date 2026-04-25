@@ -1,12 +1,16 @@
 # PIPEX
+
 ## Table of Contents
 - [About](#about)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Compilation](#compilation)
 - [Key Concepts Learned](#key-concepts-learned)
 - [Skills Developed](#skills-developed)
 - [Technical Implementation](#technical-implementation)
 - [42 School Standards](#42-school-standards)
+- [Related Articles](#-related-articles)
+- [Contact](#contact)
 
 ## About
 This repository contains my implementation of the **pipex** project at 42 School.
@@ -20,6 +24,24 @@ The program mimics the Unix pipe operator `|`, allowing the output of one comman
 
 # Which is equivalent to:
 ./pipex file1 cmd1 cmd2 file2
+```
+
+
+## Project Structure
+
+```
+pipex/
+├── Makefile
+├── pipex.h
+├── pipex.c
+├── utils.c
+├── utils_II.c
+└── my_library/
+    ├── Makefile
+    ├── my_library.h
+    ├── libft/             # Custom libft functions
+    ├── get_next_line/     # get_next_line utilities
+    └── printf/            # ft_printf implementation
 ```
 
 
@@ -167,6 +189,7 @@ Blog posts documenting the learning process and context behind this project:
 - 📝 [42 Piscine and Common Core: What I Learned](https://arthur-portfolio.com/en/blog/42-piscine-and-core-curriculum) — Reflections on 42 School's selection process and 2-year curriculum
 
 ---
+
 ## Contact
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
 - **Email**: arthurbernard.dev@gmail.com
